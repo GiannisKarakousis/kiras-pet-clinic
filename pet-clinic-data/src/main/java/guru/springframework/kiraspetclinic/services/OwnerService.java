@@ -1,6 +1,6 @@
-package guru.springframework.sfgpetclinic.services;
+package guru.springframework.kiraspetclinic.services;
 
-import guru.springframework.sfgpetclinic.model.Owner;
+import guru.springframework.kiraspetclinic.model.Owner;
 import java.util.Set;
 
 public interface OwnerService {

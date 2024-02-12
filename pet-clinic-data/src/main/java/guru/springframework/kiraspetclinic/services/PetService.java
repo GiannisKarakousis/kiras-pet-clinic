@@ -1,6 +1,6 @@
-package guru.springframework.sfgpetclinic.services;
+package guru.springframework.kiraspetclinic.services;
 
-import guru.springframework.sfgpetclinic.model.Pet;
+import guru.springframework.kiraspetclinic.model.Pet;
 
 import java.util.Set;
 
