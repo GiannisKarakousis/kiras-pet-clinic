@@ -3,9 +3,11 @@ package guru.springframework.kiraspetclinic.services.map;
 import guru.springframework.kiraspetclinic.model.Pet;
 
 import guru.springframework.kiraspetclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
