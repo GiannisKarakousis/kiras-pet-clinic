@@ -4,9 +4,11 @@ import com.sun.xml.bind.v2.model.core.ID;
 import guru.springframework.kiraspetclinic.model.PetType;
 import guru.springframework.kiraspetclinic.services.PetTypeService;
 import guru.springframework.kiraspetclinic.services.map.AbstractMapService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetTypeMapService extends AbstractMapService<PetType, Long> implements PetTypeService {
 
     @Override

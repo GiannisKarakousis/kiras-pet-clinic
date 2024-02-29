@@ -1,13 +1,16 @@
 guru\springframework\kiraspetclinic\model\Visit.class
 guru\springframework\kiraspetclinic\services\map\VetServiceMap.class
+guru\springframework\kiraspetclinic\model\Speciality.class
 guru\springframework\kiraspetclinic\services\PetService.class
 guru\springframework\kiraspetclinic\model\Vet.class
+guru\springframework\kiraspetclinic\services\PetTypeService.class
 guru\springframework\kiraspetclinic\services\map\PetServiceMap.class
 guru\springframework\kiraspetclinic\model\BaseEntity.class
 guru\springframework\kiraspetclinic\services\map\AbstractMapService.class
 guru\springframework\kiraspetclinic\services\map\OwnerServiceMap.class
 guru\springframework\kiraspetclinic\model\Pet.class
 guru\springframework\kiraspetclinic\services\CrudService.class
+guru\springframework\kiraspetclinic\services\map\PetTypeMapService.class
 guru\springframework\kiraspetclinic\services\OwnerService.class
 guru\springframework\kiraspetclinic\services\VetService.class
 guru\springframework\kiraspetclinic\model\Person.class
