@@ -1,12 +1,13 @@
 package guru.springframework.kiraspetclinic.services.map;
 
-import com.sun.xml.bind.v2.model.core.ID;
 import guru.springframework.kiraspetclinic.model.Speciality;
-import guru.springframework.kiraspetclinic.services.SpecialtiesService;
+import guru.springframework.kiraspetclinic.services.SpecialtyService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialtiesService {
+@Service
+public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialtyService {
     @Override
     public Set<Speciality> findAll() {
         return super.findAll();
