@@ -1,18 +1,28 @@
 package guru.springframework.kiraspetclinic.model;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 
+@Entity
+@Table(name = "visits")
 public class Visit extends BaseEntity{
-    private LocalDate datel;
+
+    @Column(name = "date")
+    private LocalDate date;
+
+    @Column(name = "description")
     private String description;
+
+    @ManyToOne
+    @JoinColumn(name = "pet_id")
     private Pet pet;
 
-    public LocalDate getDatel() {
-        return datel;
+    public LocalDate getDate() {
+        return date;
     }
 
-    public void setDatel(LocalDate datel) {
-        this.datel = datel;
+    public void setDate(LocalDate datel) {
+        this.date = datel;
     }
 
     public String getDescription() {
